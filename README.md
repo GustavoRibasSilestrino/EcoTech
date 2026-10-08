@@ -261,7 +261,7 @@ src/
 
 As tarefas foram organizadas no **GitHub Projects**, com mais de 50 cards divididos entre os integrantes, nas colunas _A fazer_, _Fazendo_, _Revisão_ e _Feito_.
 
-🔗 **Quadro:** _adicionar link_
+🔗 **Quadro:** https://github.com/users/GustavoRibasSilestrino/projects/2
 
 _Adicionar aqui um print do quadro:_ `![Quadro](docs/quadro.png)`
 
