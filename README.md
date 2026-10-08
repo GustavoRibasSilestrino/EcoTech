@@ -269,12 +269,11 @@ _Adicionar aqui um print do quadro:_ `![Quadro](docs/quadro.png)`
 
 ## Equipe
 
-| Integrante | Responsabilidade principal |
-|---|---|
-| _Nome 1_ | Desenvolvimento líder, Git e deploy |
-| _Nome 2_ | Design, UI e protótipo no Figma |
-| _Nome 3_ | Desenvolvimento funcional e conteúdo (módulos e espécies) |
-| _Nome 4_ | Gestão, documentação, quiz e ranking |
+| Integrante |
+Gustavo Ribas Silestrino
+Kevin Payão Reisauskas
+João Victor Pereira de Souza 
+Danilo Pereira da Silva 
 
 ---
 
