@@ -286,13 +286,21 @@ Utilizamos o **Claude (Anthropic)** como ferramenta de apoio em algumas etapas d
 
 | Etapa | Como a IA foi usada |
 |---|---|
-| Planejamento | Sugestão de cronograma, divisão de tarefas e lista de cards do quadro |
-| Documentação | Rascunho do texto de problema, benchmarking, proposta de valor, requisitos e histórias de usuário, que foram revisados e adaptados pela equipe |
-| Design | Ideias de organização das telas e de estilo visual |
-| Desenvolvimento | _(descrever, se houver: geração de trechos de código, correção de erros, etc.)_ |
+### Como o Claude (Anthropic) foi usado no projeto
 
-Todo o conteúdo gerado foi revisado pela equipe, e as decisões do projeto foram tomadas pelos integrantes.
+**Todas as decisões do projeto foram tomadas pelos integrantes da equipe.** Isso inclui a escolha do tema, do ODS, do nome EcoTech, do foco em desmatamento, das funcionalidades, do estilo visual e da decisão de fazer um site apenas de front-end. O Claude foi usado como ferramenta de apoio, sem decidir o rumo do projeto.
 
+**Textos da documentação**
+- Ajuda para redigir, de forma clara e formal, os textos do README: problema, benchmarking, proposta de valor, requisitos e histórias de usuário. As ideias partiram da equipe, e os textos foram revisados e adaptados por nós.
+
+**Organização do repositório (ajuda parcial)**
+- A pedido da equipe, o Claude ajudou a organizar o repositório: subir o README, criar o quadro no GitHub Projects e cadastrar as 55 issues divididas entre os integrantes.
+- Nem toda a organização foi feita com IA. O restante foi feito pela equipe.
+
+**Revisão de código (apoio durante o desenvolvimento)**
+- O Claude ajudará a revisar o código escrito pela equipe, apontar erros e sugerir correções, que são conferidas e testadas por nós antes de entrarem no projeto.
+
+Todo conteúdo sugerido ou gerado por IA foi lido e validado pelos integrantes.
 ---
 
 ## Créditos e fontes
