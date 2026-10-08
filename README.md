@@ -1,4 +1,4 @@
-# 🌳 EcoTech
+# EcoTech
 
 > Trilha gamificada de educação ambiental sobre o desmatamento e seus impactos na natureza.
 
@@ -9,14 +9,14 @@
 
 | Item | Link |
 |---|---|
-| 🌐 Site publicado (deploy) | _adicionar link_ |
-| 💻 Repositório | https://github.com/GustavoRibasSilestrino/EcoTech |
-| 🎨 Protótipo no Figma | _adicionar link_ |
-| 📌 Gestão do projeto (GitHub Projects) | _adicionar link_ |
+| Site publicado (deploy) | _adicionar link_ |
+| Repositório | https://github.com/GustavoRibasSilestrino/EcoTech |
+| Protótipo no Figma | _adicionar link_ |
+| Gestão do projeto (GitHub Projects) | _adicionar link_ |
 
 ---
 
-## 📑 Sumário
+## Sumário
 
 1. [Sobre o projeto](#-sobre-o-projeto)
 2. [ODS escolhido](#-ods-escolhido)
@@ -37,17 +37,17 @@
 
 ---
 
-## 📖 Sobre o projeto
+## Sobre o projeto
 
 O **EcoTech** é uma aplicação web (apenas front-end) desenvolvida no Hackathon de Front-end Frameworks. Ela ensina, de forma interativa, o que é o desmatamento, quais são suas causas e como ele afeta a fauna, a flora, o clima e a água. O usuário percorre uma **trilha de módulos**, responde **quizzes**, ganha **pontos e selos** e conhece **espécies ameaçadas**.
 
-## 🌍 ODS escolhido
+## ODS escolhido
 
 **ODS 15 – Vida Terrestre:** proteger, recuperar e promover o uso sustentável dos ecossistemas terrestres, combatendo o desmatamento e detendo a perda de biodiversidade.
 
 O projeto também se conecta ao **ODS 4 – Educação de Qualidade**.
 
-## ❗ Problema
+## Problema
 
 O desmatamento destrói florestas, reduz a biodiversidade, degrada o solo, altera o clima e ameaça comunidades inteiras. Mesmo assim, muitos jovens não conhecem suas causas nem como ele afeta a natureza e o dia a dia deles. O conteúdo disponível costuma ser técnico, extenso e pouco interativo, o que dificulta o interesse e o aprendizado.
 
@@ -70,7 +70,7 @@ Desenvolver uma aplicação web com uma **trilha gamificada** que ensina sobre o
 
 ---
 
-## 🔎 Benchmarking
+## Benchmarking
 
 Análise de 5 soluções existentes relacionadas ao tema (desmatamento, educação ambiental e gamificação).
 
@@ -86,7 +86,7 @@ Análise de 5 soluções existentes relacionadas ao tema (desmatamento, educaç�
 
 ---
 
-## 💡 Proposta de valor
+## Proposta de valor
 
 **Que problema resolvemos?**
 A falta de conteúdo claro, interativo e em português sobre o desmatamento e seus impactos na natureza, que faz muitos jovens não entenderem a gravidade do problema.
@@ -106,7 +106,7 @@ O EcoTech oferece uma trilha gamificada, com módulos curtos, quizzes, pontos, s
 
 ---
 
-## 📋 Requisitos
+## Requisitos
 
 ### Requisitos funcionais
 
@@ -140,7 +140,7 @@ O EcoTech oferece uma trilha gamificada, com módulos curtos, quizzes, pontos, s
 
 ---
 
-## 👤 Histórias de usuário
+## Histórias de usuário
 
 | ID | História | Critérios de aceitação |
 |---|---|---|
@@ -157,7 +157,7 @@ O EcoTech oferece uma trilha gamificada, com módulos curtos, quizzes, pontos, s
 
 ---
 
-## 🎨 Protótipo
+## Protótipo
 
 Protótipo navegável com 10 telas, feito no Figma: **_adicionar link_**
 
@@ -180,7 +180,7 @@ _Adicionar aqui os prints das telas do protótipo, por exemplo:_ `![Home](docs/p
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - Criação de perfil com nome e avatar (salvo no navegador)
 - Trilha com 5 módulos de conteúdo sobre desmatamento
@@ -195,7 +195,7 @@ _Adicionar aqui os prints das telas do protótipo, por exemplo:_ `![Home](docs/p
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 _(Ajustar conforme o que a equipe realmente usar.)_
 
@@ -211,7 +211,7 @@ _(Ajustar conforme o que a equipe realmente usar.)_
 
 ---
 
-## ▶️ Como executar
+## Como executar
 
 **Pré-requisitos:** [Node.js](https://nodejs.org/) 18 ou superior e Git.
 
@@ -239,7 +239,7 @@ npm run build
 
 ---
 
-## 📁 Estrutura de pastas
+## Estrutura de pastas
 
 _(Ajustar conforme o projeto final.)_
 
@@ -257,7 +257,7 @@ src/
 
 ---
 
-## 📌 Gestão do projeto
+## Gestão do projeto
 
 As tarefas foram organizadas no **GitHub Projects**, com mais de 50 cards divididos entre os integrantes, nas colunas _A fazer_, _Fazendo_, _Revisão_ e _Feito_.
 
@@ -267,7 +267,7 @@ _Adicionar aqui um print do quadro:_ `![Quadro](docs/quadro.png)`
 
 ---
 
-## 👥 Equipe
+## Equipe
 
 | Integrante | Responsabilidade principal |
 |---|---|
@@ -278,7 +278,7 @@ _Adicionar aqui um print do quadro:_ `![Quadro](docs/quadro.png)`
 
 ---
 
-## 🤖 Uso de Inteligência Artificial
+## Uso de Inteligência Artificial
 
 _(Revisar e ajustar este texto para refletir exatamente o que a equipe fez.)_
 
@@ -295,7 +295,7 @@ Todo o conteúdo gerado foi revisado pela equipe, e as decisões do projeto fora
 
 ---
 
-## 📚 Créditos e fontes
+## Créditos e fontes
 
 **Imagens**
 - _Listar aqui cada imagem com autor e fonte (Unsplash, Pexels, Pixabay, Wikimedia Commons)._
