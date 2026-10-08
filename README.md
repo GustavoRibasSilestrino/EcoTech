@@ -12,7 +12,7 @@
 | Site publicado (deploy) | _adicionar link_ |
 | Repositório | https://github.com/GustavoRibasSilestrino/EcoTech |
 | Protótipo no Figma | https://www.figma.com/design/vMPOd9CJlCuDQVdjv6F5M4/Sem-t%25C3%25ADtulo?node-id=0-1&p=f&t=2qoYHRzeBDhQPxiA-0 |
-| Gestão do projeto (GitHub Projects) | _adicionar link_ |
+| Gestão do projeto (GitHub Projects) | https://github.com/users/GustavoRibasSilestrino/projects/2 |
 
 ---
 
