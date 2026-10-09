@@ -9,7 +9,7 @@
 
 | Item | Link |
 |---|---|
-| Site publicado (deploy) | _adicionar link_ |
+| Site publicado (deploy) | https://ecotech-ten-puce.vercel.app |
 | Repositório | https://github.com/GustavoRibasSilestrino/EcoTech |
 | Protótipo no Figma | https://www.figma.com/design/vMPOd9CJlCuDQVdjv6F5M4/Sem-t%25C3%25ADtulo?node-id=0-1&p=f&t=2qoYHRzeBDhQPxiA-0 |
 | Gestão do projeto (GitHub Projects) | https://github.com/users/GustavoRibasSilestrino/projects/2 |
@@ -34,6 +34,10 @@
 14. [Equipe](#-equipe)
 15. [Uso de Inteligência Artificial](#-uso-de-inteligência-artificial)
 16. [Créditos e fontes](#-créditos-e-fontes)
+17. [Público-alvo](#público-alvo)
+18. [Framework Utilizado](#framework-utilizado)
+19. [Aplicação](#aplicação)
+20. [Processo de Desenvolvimento](#processo-de-desenvolvimento)
 
 ---
 
@@ -67,6 +71,13 @@ O recurso precisa ser atrativo e interativo, em português, gratuito e acessíve
 **Objetivo da solução**
 
 Desenvolver uma aplicação web com uma **trilha gamificada** que ensina sobre o desmatamento e seus impactos na natureza, contendo módulos de conteúdo, quizzes, pontos, níveis, selos de conquista e ranking.
+
+---
+
+## Público-alvo
+
+- Estudantes de 12 a 17 anos (ensino fundamental II e médio).
+- Professores que buscam recursos interativos para ensinar educação ambiental.
 
 ---
 
@@ -211,6 +222,16 @@ _(Ajustar conforme o que a equipe realmente usar.)_
 
 ---
 
+## Framework Utilizado
+
+O projeto usa **React 19** com **Vite** e **React Router 7**.
+
+- **Por que React:** a interface é feita de peças que se repetem (cards de espécie, botões, modal do quiz, barra de progresso). Os componentes reutilizáveis evitam repetição e deixam o código organizado.
+- **Por que Vite:** inicia e recarrega rápido, o que ajudou em um prazo curto, e gera uma versão de produção leve para hospedagem estática.
+- **Por que React Router:** a aplicação tem várias telas (trilha, módulo, quiz, catálogo, ranking, perfil). Usamos `HashRouter`, que funciona em qualquer hospedagem estática sem configurar redirecionamentos.
+
+---
+
 ## Como executar
 
 **Pré-requisitos:** [Node.js](https://nodejs.org/) 18 ou superior e Git.
@@ -241,19 +262,79 @@ npm run build
 
 ## Estrutura de pastas
 
-_(Ajustar conforme o projeto final.)_
-
 ```
+public/
+├── img/          # foto de destaque e fundo de floresta
+├── logo.png
+└── icone.png
 src/
-├── components/   # Navbar, Footer, Card, Botão, Quiz, Selo...
-├── pages/        # Home, Perfil, Trilha, Módulo, Quiz, Resultado, Espécies, Ranking
-├── data/         # modulos.json, quizzes.json, especies.json, ranking.json
-├── hooks/        # lógica reutilizável (ex.: uso do localStorage)
-├── assets/       # imagens e ícones
-├── styles/       # estilos globais
+├── components/   # Navbar, Footer, Layout, CardEspecie, ModalFeedback, Tooltip...
+├── context/      # estado global (perfil, pontos, favoritos)
+├── data/         # modulos.json, especies.json, ranking.json
+├── hooks/        # useLocalStorage
+├── pages/        # Home, Trilha, Modulo, Quiz, Resultado, Especies, Ranking, Perfil...
+├── styles/       # global.css
+├── utils/        # regras de pontos e selos, auxiliares
 ├── App.jsx
 └── main.jsx
 ```
+
+---
+
+## Aplicação
+
+**Site publicado:** https://ecotech-ten-puce.vercel.app
+
+| Tela | Rota | O que faz |
+|---|---|---|
+| Início | `/` | Foto de destaque e conteúdo de conscientização: o que é o desmatamento, consequências, biomas, mitos e verdades, ações práticas |
+| Criar perfil | `/perfil/criar` | Nome e cor do avatar, salvos no navegador |
+| Trilha | `/trilha` | Mapa dos 5 módulos, com desbloqueio progressivo |
+| Módulo | `/modulo/:id` | Conteúdo do módulo, com glossário em balões |
+| Quiz | `/quiz/:id` | 5 perguntas embaralhadas, 3 vidas, feedback imediato |
+| Resultado | `/resultado/:id` | Acertos, pontos ganhos e nível |
+| Espécies | `/especies` | Catálogo com busca, autocomplete e filtros |
+| Detalhe da espécie | `/especie/:id` | Informações, impacto do desmatamento e favoritar |
+| Favoritos | `/favoritos` | Espécies salvas pelo usuário |
+| Ranking | `/ranking` | Pódio e lista, com participantes de demonstração |
+| Perfil | `/perfil` | Nível, pontos, selos e favoritos |
+| Sobre | `/sobre` | ODS, fontes e explicação do projeto |
+
+O site é responsivo: no celular, o menu vira hambúrguer e o título da página inicial fica numa camada abaixo da foto.
+
+---
+
+## Processo de Desenvolvimento
+
+Esta seção explica o que foi feito, por que foi feito e como o projeto foi construído.
+
+### Etapas
+
+1. **Planejamento:** definimos o ODS 15 (com ligação ao ODS 4), o problema (falta de conteúdo claro e interativo sobre desmatamento para jovens), o público-alvo, o benchmarking de 5 soluções, a proposta de valor, os 10 requisitos funcionais, os 10 não funcionais e as histórias de usuário. Tudo está documentado neste README.
+2. **Organização:** criamos o quadro no GitHub Projects e as issues, divididas entre os 4 integrantes (Pessoas 1 a 4).
+3. **Protótipo:** montamos no Figma as telas principais e o fluxo de navegação.
+4. **Desenvolvimento:** construímos o front-end em React, nesta ordem: dados (módulos, quizzes, espécies, ranking), regras de pontos e selos, estado global, componentes reutilizáveis, layout e páginas.
+5. **Ajustes visuais e responsividade:** refinamos o visual (fundo de floresta, header transparente, títulos mais discretos) e adaptamos o site para celular.
+6. **Publicação:** deploy na Vercel, ligada ao repositório. Cada push na `main` publica uma nova versão.
+
+### Decisões técnicas
+
+| Decisão | Motivo |
+|---|---|
+| Aplicação apenas de front-end | O escopo do hackathon pede um front-end funcional, e não era necessário servidor |
+| Dados em arquivos JSON | Módulos, quizzes, espécies e ranking são conteúdo fixo e simples de manter |
+| Perfil, progresso e favoritos no `localStorage` | Permite guardar o avanço sem login e sem back-end |
+| Ranking de demonstração | Sem servidor, não há como juntar a pontuação de vários usuários |
+| Quiz com perguntas embaralhadas e 3 vidas | Evita decorar posições e torna a experiência mais desafiadora |
+| Acessibilidade | Foco visível no teclado, textos alternativos e rótulos ARIA nos controles |
+
+### Divisão de trabalho e gestão
+
+As tarefas foram registradas como issues no GitHub Projects e distribuídas entre os integrantes. O quadro mostra o andamento de cada uma: `A fazer`, `Em andamento` e `Feito`.
+
+### Controle de versão
+
+Os commits seguem o padrão semântico (`feat:`, `style:`, `fix:`, `docs:`, `chore:`) e descrevem alterações reais no código. O código inicial do site foi escrito de uma só vez e depois organizado em commits por funcionalidade (dados, regras, componentes, páginas e estilos). Os ajustes seguintes foram commitados à medida que eram feitos.
 
 ---
 
