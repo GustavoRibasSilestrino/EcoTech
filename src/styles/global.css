@@ -75,7 +75,7 @@ ul { padding-left: 1.2em; }
   border-bottom: 1px solid var(--borda);
 }
 .navbar-conteudo { max-width: 1200px; margin: 0 auto; padding: 10px 24px; display: flex; align-items: center; gap: 18px; }
-.logo { display: inline-flex; align-items: center; gap: 8px; font-size: 1.15rem; font-weight: 700; letter-spacing: 0.01em; color: #fff; text-decoration: none; }
+.logo { font-family: var(--fonte); display: inline-flex; align-items: center; gap: 8px; font-size: 1.15rem; font-weight: 700; letter-spacing: 0.01em; color: #fff; text-decoration: none; }
 .menu { display: flex; gap: 2px; margin-left: auto; }
 .menu a { color: rgba(255, 255, 255, 0.86); text-decoration: none; padding: 8px 14px; border-radius: 8px; font-size: 0.93rem; font-weight: 500; transition: background 0.2s, color 0.2s; }
 .menu a:hover { background: rgba(255, 255, 255, 0.12); color: #fff; }
@@ -151,7 +151,7 @@ ul { padding-left: 1.2em; }
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 22%, rgba(2, 12, 7, 0.3) 62%, rgba(2, 12, 7, 0.22) 85%, rgba(2, 12, 7, 0) 100%);
 }
 .hero-conteudo { width: 100%; max-width: 1200px; margin: 0 auto; padding: 120px 24px 44px; }
-.hero-conteudo h1 { font-size: clamp(1.25rem, 1.9vw, 1.6rem); max-width: 420px; margin: 0 0 0.35em; text-shadow: 0 2px 14px rgba(0, 0, 0, 0.7); }
+.hero-conteudo h1 { font-family: var(--fonte); font-weight: 600; text-transform: none; letter-spacing: -0.01em; font-size: clamp(1.1rem, 1.6vw, 1.4rem); max-width: 420px; margin: 0 0 0.35em; text-shadow: 0 2px 14px rgba(0, 0, 0, 0.7); }
 .hero-sub { font-size: 0.82rem; max-width: 340px; line-height: 1.5; color: #dfe9e2; text-shadow: 0 1px 8px rgba(0, 0, 0, 0.8); }
 .hero-botoes { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 22px; }
 
@@ -428,7 +428,7 @@ legend { padding: 0 8px; font-weight: 500; font-size: 0.93rem; }
     mask-image: linear-gradient(180deg, #000 0%, #000 62%, transparent 100%);
   }
   .hero-conteudo { padding: 6px 18px 32px; margin-top: -24px; position: relative; }
-  .hero-conteudo h1 { font-size: 1.3rem; max-width: none; }
+  .hero-conteudo h1 { font-size: 1.15rem; max-width: none; }
   .hero-sub { font-size: 0.85rem; max-width: none; }
   .hero-botoes .btn { flex: 1 1 100%; }
 }
