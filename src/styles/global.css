@@ -390,3 +390,34 @@ legend { padding: 0 8px; font-weight: 500; font-size: 0.93rem; }
 .conta { display: grid; place-items: center; border-radius: 50%; text-decoration: none; }
 .conta:hover { opacity: 0.85; }
 .conta-vazia { width: 38px; height: 38px; color: #fff; background: rgba(255, 255, 255, 0.1); border: 1px solid var(--borda); }
+
+/* ===== Mobile: título numa camada abaixo da foto ===== */
+@media (max-width: 860px) {
+  .hero-foto {
+    display: block;
+    min-height: 0;
+    background: none;
+  }
+  .hero-foto::before {
+    content: '';
+    display: block;
+    height: min(62vh, 520px);
+    background:
+      linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 22%, rgba(2, 12, 7, 0) 70%, rgba(2, 12, 7, 0.9) 100%),
+      url('/img/hero.jpg') center 30% / cover no-repeat;
+  }
+  .hero-conteudo {
+    padding: 8px 18px 36px;
+    margin-top: -28px;
+    position: relative;
+  }
+  .hero-conteudo h1 { font-size: clamp(1.55rem, 7vw, 2rem); margin-top: 0; }
+  .hero-sub { font-size: 1rem; }
+  .hero-botoes .btn { flex: 1 1 100%; }
+}
+
+@media (max-width: 860px) {
+  .menu { background: rgba(5, 16, 11, 0.97); }
+  .menu a { padding: 12px 14px; }
+  .menu a.active { box-shadow: none; background: rgba(255, 255, 255, 0.12); border-radius: 8px; }
+}
