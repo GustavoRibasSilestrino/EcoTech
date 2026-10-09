@@ -1,0 +1,347 @@
+[
+  {
+    "id": 1,
+    "titulo": "O que é desmatamento",
+    "resumo": "Entenda o conceito e por que as florestas importam.",
+    "conteudo": [
+      "Desmatamento é a remoção da vegetação nativa de uma área, normalmente para dar lugar a pastos, plantações, minas, cidades ou estradas.",
+      "Parte da supressão de vegetação pode ser autorizada por lei, mas uma grande parte acontece de forma ilegal, sem licença nem controle.",
+      "As florestas abrigam uma enorme biodiversidade, ajudam a regular o clima, protegem o solo e mantêm os rios abastecidos. Quando elas somem, tudo isso é afetado."
+    ],
+    "curiosidade": "O Brasil abriga seis grandes biomas: Amazônia, Cerrado, Mata Atlântica, Caatinga, Pampa e Pantanal.",
+    "imagem": "floresta",
+    "quiz": [
+      {
+        "pergunta": "O que é desmatamento?",
+        "opcoes": [
+          "A remoção da vegetação nativa de uma área",
+          "O plantio de árvores em uma área nova",
+          "A limpeza de rios e lagos",
+          "A criação de parques ecológicos"
+        ],
+        "correta": 0,
+        "explicacao": "Desmatamento é a retirada da vegetação nativa, geralmente para outros usos da terra."
+      },
+      {
+        "pergunta": "Qual destas funções as florestas NÃO cumprem?",
+        "opcoes": [
+          "Abrigar biodiversidade",
+          "Proteger o solo",
+          "Ajudar a regular o clima",
+          "Aumentar a temperatura do planeta"
+        ],
+        "correta": 3,
+        "explicacao": "As florestas ajudam a regular o clima e não a aumentar a temperatura; quando são destruídas, o equilíbrio é perdido."
+      },
+      {
+        "pergunta": "Quantos grandes biomas o Brasil possui?",
+        "opcoes": [
+          "Dois",
+          "Quatro",
+          "Seis",
+          "Dez"
+        ],
+        "correta": 2,
+        "explicacao": "São seis: Amazônia, Cerrado, Mata Atlântica, Caatinga, Pampa e Pantanal."
+      },
+      {
+        "pergunta": "O desmatamento ilegal é aquele que:",
+        "opcoes": [
+          "Ocorre sem autorização e sem controle",
+          "É feito apenas à noite",
+          "Só acontece em cidades",
+          "É feito para plantar árvores"
+        ],
+        "correta": 0,
+        "explicacao": "Ilegal é o desmatamento feito sem licença ou fora das regras previstas em lei."
+      },
+      {
+        "pergunta": "Por que a vegetação nativa é importante para o solo?",
+        "opcoes": [
+          "Porque deixa o solo mais seco",
+          "Porque protege o solo contra a erosão",
+          "Porque impede a chuva",
+          "Porque atrai poluição"
+        ],
+        "correta": 1,
+        "explicacao": "As raízes seguram a terra e a copa das árvores reduz o impacto da chuva, evitando a erosão."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Causas do desmatamento",
+    "resumo": "Descubra o que está por trás da perda das florestas.",
+    "conteudo": [
+      "A principal causa do desmatamento no Brasil é a expansão da agropecuária, com a abertura de áreas para pasto e plantações.",
+      "Outras causas importantes são as queimadas, a extração ilegal de madeira, a mineração (inclusive o garimpo ilegal) e a abertura de estradas e áreas urbanas.",
+      "Muitas vezes essas causas se combinam: estradas facilitam o acesso a áreas isoladas, a madeira é retirada e depois a terra é queimada para virar pasto."
+    ],
+    "curiosidade": "Fogo usado para limpar áreas pode fugir do controle e atingir florestas inteiras, principalmente em épocas de seca.",
+    "imagem": "queimada",
+    "quiz": [
+      {
+        "pergunta": "Qual é apontada como a principal causa do desmatamento no Brasil?",
+        "opcoes": [
+          "Expansão da agropecuária",
+          "Plantio de árvores nativas",
+          "Criação de reservas",
+          "Reciclagem de papel"
+        ],
+        "correta": 0,
+        "explicacao": "A abertura de áreas para pasto e lavouras é a principal causa."
+      },
+      {
+        "pergunta": "Qual destas é uma causa de desmatamento?",
+        "opcoes": [
+          "Extração ilegal de madeira",
+          "Coleta seletiva",
+          "Educação ambiental",
+          "Reflorestamento"
+        ],
+        "correta": 0,
+        "explicacao": "A retirada ilegal de madeira derruba árvores sem manejo nem fiscalização."
+      },
+      {
+        "pergunta": "Como as estradas contribuem para o desmatamento?",
+        "opcoes": [
+          "Facilitam o acesso a áreas isoladas",
+          "Impedem a entrada de pessoas",
+          "Aumentam a chuva",
+          "Plantam árvores nas margens"
+        ],
+        "correta": 0,
+        "explicacao": "Estradas abrem caminho para a exploração de áreas antes de difícil acesso."
+      },
+      {
+        "pergunta": "O garimpo ilegal está ligado a qual causa?",
+        "opcoes": [
+          "Mineração",
+          "Turismo",
+          "Reciclagem",
+          "Agricultura orgânica"
+        ],
+        "correta": 0,
+        "explicacao": "O garimpo é uma atividade de mineração que, quando ilegal, destrói a mata e contamina rios."
+      },
+      {
+        "pergunta": "Por que as queimadas são perigosas?",
+        "opcoes": [
+          "O fogo pode sair do controle e atingir florestas",
+          "Elas deixam o ar mais limpo",
+          "Elas ajudam a fauna",
+          "Elas geram chuva"
+        ],
+        "correta": 0,
+        "explicacao": "O fogo pode se espalhar e destruir grandes áreas, além de poluir o ar."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Impactos na fauna e na flora",
+    "resumo": "Veja como animais e plantas sofrem quando a floresta some.",
+    "conteudo": [
+      "Quando a floresta é cortada, os animais perdem abrigo, comida e rotas de passagem. Muitas espécies não conseguem se adaptar e correm risco de extinção.",
+      "A floresta também vira pedaços isolados, o que chamamos de fragmentação. Populações pequenas ficam presas e têm mais dificuldade para se reproduzir.",
+      "Plantas e animais dependem uns dos outros: aves e insetos polinizam flores e espalham sementes. Se um elo some, toda a cadeia sente."
+    ],
+    "curiosidade": "O tucano ajuda a espalhar sementes de muitas plantas ao comer frutos e depois deixar as sementes em outros lugares.",
+    "imagem": "tucano",
+    "quiz": [
+      {
+        "pergunta": "O que acontece com os animais quando perdem seu habitat?",
+        "opcoes": [
+          "Perdem abrigo e alimento",
+          "Ganham mais espaço",
+          "Passam a viver em cidades sem problemas",
+          "Nada muda"
+        ],
+        "correta": 0,
+        "explicacao": "Sem abrigo e comida, muitas espécies diminuem ou desaparecem."
+      },
+      {
+        "pergunta": "O que é fragmentação da floresta?",
+        "opcoes": [
+          "A floresta dividida em pedaços isolados",
+          "O plantio de novas árvores",
+          "A criação de trilhas",
+          "A chuva forte"
+        ],
+        "correta": 0,
+        "explicacao": "A mata é dividida em manchas isoladas, dificultando a vida dos animais."
+      },
+      {
+        "pergunta": "Qual é o papel das aves como o tucano nas florestas?",
+        "opcoes": [
+          "Dispersar sementes",
+          "Produzir chuva",
+          "Cortar árvores",
+          "Poluir rios"
+        ],
+        "correta": 0,
+        "explicacao": "Ao comer frutos, elas espalham sementes e ajudam a floresta a se renovar."
+      },
+      {
+        "pergunta": "Polinizadores, como abelhas e beija-flores, são importantes porque:",
+        "opcoes": [
+          "Ajudam as plantas a se reproduzir",
+          "Destroem folhas",
+          "Impedem frutos",
+          "Causam queimadas"
+        ],
+        "correta": 0,
+        "explicacao": "A polinização permite que muitas plantas produzam frutos e sementes."
+      },
+      {
+        "pergunta": "O que significa uma espécie estar ameaçada de extinção?",
+        "opcoes": [
+          "Ela corre risco de desaparecer",
+          "Ela é muito comum",
+          "Ela só vive em zoológicos",
+          "Ela é nova"
+        ],
+        "correta": 0,
+        "explicacao": "Espécies ameaçadas têm populações pequenas ou em queda e podem desaparecer."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Clima, solo e água",
+    "resumo": "Entenda como a floresta protege o clima e os rios.",
+    "conteudo": [
+      "As árvores absorvem gás carbônico (CO2) da atmosfera. Quando são queimadas ou apodrecem, parte desse carbono volta ao ar e contribui para o aquecimento global.",
+      "A floresta também devolve umidade para o ar. Na Amazônia, esse vapor ajuda a formar chuvas que alcançam outras regiões, os chamados rios voadores.",
+      "Sem a cobertura vegetal, o solo fica exposto, sofre erosão e a terra vai parar nos rios (assoreamento), deixando a água mais suja e reduzindo a vazão."
+    ],
+    "curiosidade": "Uma única árvore grande pode devolver centenas de litros de água para a atmosfera em um dia.",
+    "imagem": "rio",
+    "quiz": [
+      {
+        "pergunta": "O que as árvores absorvem do ar?",
+        "opcoes": [
+          "Gás carbônico (CO2)",
+          "Apenas poeira",
+          "Chuva ácida",
+          "Ruído"
+        ],
+        "correta": 0,
+        "explicacao": "Pela fotossíntese as plantas absorvem CO2 e liberam oxigênio."
+      },
+      {
+        "pergunta": "O que são os chamados 'rios voadores'?",
+        "opcoes": [
+          "Massas de vapor de água que transportam umidade pelo ar",
+          "Rios que correm em montanhas",
+          "Aviões que levam água",
+          "Cachoeiras"
+        ],
+        "correta": 0,
+        "explicacao": "São correntes de vapor, em grande parte formadas pela floresta, que levam chuva a outras regiões."
+      },
+      {
+        "pergunta": "O que é erosão?",
+        "opcoes": [
+          "O desgaste e a perda do solo",
+          "O crescimento de plantas",
+          "A formação de nuvens",
+          "O aumento de rios"
+        ],
+        "correta": 0,
+        "explicacao": "Sem vegetação, a chuva e o vento arrastam o solo."
+      },
+      {
+        "pergunta": "O assoreamento prejudica os rios porque:",
+        "opcoes": [
+          "Acumula terra no leito e reduz a água",
+          "Aumenta peixes",
+          "Limpa a água",
+          "Forma cachoeiras"
+        ],
+        "correta": 0,
+        "explicacao": "A terra arrastada se acumula no fundo, deixando os rios mais rasos e sujos."
+      },
+      {
+        "pergunta": "Queimar florestas contribui para qual problema?",
+        "opcoes": [
+          "Aquecimento global",
+          "Resfriamento global",
+          "Mais biodiversidade",
+          "Menos carbono no ar"
+        ],
+        "correta": 0,
+        "explicacao": "A queima libera carbono estocado na vegetação, intensificando o efeito estufa."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "O que posso fazer",
+    "resumo": "Ações práticas para proteger a vida terrestre.",
+    "conteudo": [
+      "Pequenas escolhas importam: reduzir o desperdício de papel, reciclar e preferir produtos de origem conhecida, como madeira e papel com certificação, ajuda a diminuir a pressão sobre as florestas.",
+      "Informe-se e converse sobre o tema com a família e os amigos. Quanto mais pessoas entendem o problema, maior a cobrança por soluções.",
+      "Apoie projetos de reflorestamento e de conservação, participe de ações na escola e denuncie crimes ambientais aos órgãos responsáveis, como o Ibama."
+    ],
+    "curiosidade": "Escolher produtos com selo de manejo florestal, como o FSC, indica que a madeira vem de fonte gerenciada de forma responsável.",
+    "imagem": "plantio",
+    "quiz": [
+      {
+        "pergunta": "Qual atitude ajuda a reduzir a pressão sobre as florestas?",
+        "opcoes": [
+          "Reduzir o desperdício de papel e reciclar",
+          "Desperdiçar papel",
+          "Comprar madeira sem origem",
+          "Queimar lixo"
+        ],
+        "correta": 0,
+        "explicacao": "Usar menos e reciclar diminui a demanda por matéria-prima."
+      },
+      {
+        "pergunta": "O que indica o selo de certificação florestal, como o FSC?",
+        "opcoes": [
+          "Que a madeira vem de manejo responsável",
+          "Que o produto é mais barato",
+          "Que veio do exterior",
+          "Que é feito de plástico"
+        ],
+        "correta": 0,
+        "explicacao": "Esse selo mostra que a origem da madeira ou do papel segue práticas responsáveis."
+      },
+      {
+        "pergunta": "Como você pode ajudar a divulgar o tema?",
+        "opcoes": [
+          "Conversando e compartilhando informação confiável",
+          "Escondendo o assunto",
+          "Espalhando boatos",
+          "Ignorando o problema"
+        ],
+        "correta": 0,
+        "explicacao": "Informação de qualidade aumenta a consciência e a cobrança por soluções."
+      },
+      {
+        "pergunta": "Diante de um crime ambiental, o que fazer?",
+        "opcoes": [
+          "Denunciar aos órgãos responsáveis",
+          "Compartilhar o crime como piada",
+          "Ignorar",
+          "Participar"
+        ],
+        "correta": 0,
+        "explicacao": "A denúncia permite que os órgãos de fiscalização investiguem e ajam."
+      },
+      {
+        "pergunta": "O reflorestamento serve para:",
+        "opcoes": [
+          "Recuperar áreas que perderam a vegetação",
+          "Aumentar queimadas",
+          "Secar rios",
+          "Reduzir a biodiversidade"
+        ],
+        "correta": 0,
+        "explicacao": "Plantar espécies nativas ajuda a recuperar o solo, a água e a fauna."
+      }
+    ]
+  }
+]
