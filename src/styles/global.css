@@ -344,3 +344,49 @@ legend { padding: 0 8px; font-weight: 500; font-size: 0.93rem; }
 .footer ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; }
 .footer a { color: var(--texto-suave); text-decoration: none; }
 .footer a:hover { color: #fff; }
+
+/* ===== Responsivo ===== */
+@media (max-width: 860px) {
+  .hamburguer { display: flex; }
+  .menu { display: none; position: absolute; left: 0; right: 0; top: 100%; flex-direction: column; background: var(--vidro-forte); backdrop-filter: blur(14px); padding: 10px 20px 16px; border-bottom: 1px solid var(--borda); margin-left: 0; }
+  .menu.aberto { display: flex; }
+  .navbar-conteudo { position: relative; flex-wrap: wrap; padding: 10px 16px; }
+  .hero-conteudo { padding: 100px 16px 40px; }
+  .conteudo-home { padding: 0 16px; }
+  .detalhe { grid-template-columns: 1fr; }
+  .detalhe-foto { min-height: 200px; }
+  .trilha-no.esq, .trilha-no.dir { justify-content: center; }
+  .trilha::before { display: none; }
+}
+@media (max-width: 520px) {
+  .pagina { padding: 88px 14px 44px; }
+  .pagina-home { padding: 0 0 44px; }
+  .podio { gap: 8px; }
+  .perfil-numeros { gap: 14px; }
+  .filtro-rotulo { min-width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+/* ===== Home: conteúdo de conscientização ===== */
+.grade.quatro { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+.texto-suave { color: var(--texto-suave); margin: 0; font-size: 0.95rem; }
+.card-vidro h3 { margin-bottom: 0.4em; }
+.linha-etapas { list-style: none; padding: 0; margin: 0 0 14px; display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px; counter-reset: etapa; }
+.linha-etapas li { position: relative; }
+.etapa-numero { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; border: 1px solid rgba(255, 255, 255, 0.6); font-weight: 600; font-size: 0.85rem; margin-bottom: 10px; }
+.mitos { display: grid; gap: 10px; }
+.mito { padding: 0; }
+.mito summary { cursor: pointer; padding: 16px 20px; font-weight: 600; list-style: none; display: flex; justify-content: space-between; gap: 14px; align-items: center; }
+.mito summary::-webkit-details-marker { display: none; }
+.mito summary::after { content: '+'; font-size: 1.3rem; font-weight: 400; color: var(--texto-suave); }
+.mito[open] summary::after { content: '\2212'; }
+.mito p { padding: 0 20px 18px; margin: 0; color: var(--texto-suave); }
+
+/* ===== Logo e conta ===== */
+.logo-img { height: 30px; width: auto; display: block; }
+.logo { gap: 10px; }
+.conta { display: grid; place-items: center; border-radius: 50%; text-decoration: none; }
+.conta:hover { opacity: 0.85; }
+.conta-vazia { width: 38px; height: 38px; color: #fff; background: rgba(255, 255, 255, 0.1); border: 1px solid var(--borda); }
