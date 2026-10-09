@@ -1,0 +1,62 @@
+/* ===== Tokens ===== */
+:root {
+  --veu: rgba(2, 14, 8, 0.66);
+  --vidro: rgba(8, 24, 16, 0.58);
+  --vidro-forte: rgba(6, 18, 12, 0.88);
+  --borda: rgba(255, 255, 255, 0.16);
+  --texto: #f2f6f3;
+  --texto-suave: #b9c8bf;
+
+  --acento: #e6f2ea;
+  --acento-escuro: #bcd6c6;
+  --verde: #3fae6a;
+  --verde-claro: #8fd9a8;
+  --vermelho: #e5575f;
+
+  --raio: 14px;
+  --sombra: 0 8px 28px rgba(0, 0, 0, 0.35);
+  --fonte: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+/* ===== Base ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--fonte);
+  font-size: 16px;
+  color: var(--texto);
+  background: #06140d;
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3 { font-weight: 600; line-height: 1.2; margin: 0 0 0.5em; letter-spacing: -0.01em; }
+h1 { font-size: clamp(1.6rem, 3vw, 2.1rem); }
+h2 { font-size: clamp(1.15rem, 2vw, 1.4rem); }
+h3 { font-size: 1.02rem; }
+p { margin: 0 0 0.9em; }
+a { color: var(--verde-claro); }
+code { background: rgba(0, 0, 0, 0.4); padding: 0.1em 0.4em; border-radius: 6px; font-size: 0.9em; }
+ul { padding-left: 1.2em; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.icone { flex-shrink: 0; vertical-align: middle; }
+
+.pular { position: absolute; left: 8px; top: -60px; background: #fff; color: #111; padding: 10px 16px; border-radius: 8px; z-index: 100; font-weight: 600; }
+.pular:focus { top: 8px; }
+:focus-visible { outline: 2px solid var(--acento); outline-offset: 3px; }
+
+/* ===== Fundo: foto da floresta ===== */
+.fundo { position: fixed; inset: 0; z-index: -1; }
+.fundo-foto { position: absolute; inset: 0; background: #06140d url('/img/floresta.webp') center / cover no-repeat; }
+.fundo-veu { position: absolute; inset: 0; background: var(--veu); }
+
+/* ===== Títulos (limpos, sem gradiente) ===== */
+.titulo-secao { margin: 2.2em 0 0.9em; padding-bottom: 0.45em; border-bottom: 1px solid var(--borda); }
+.subtitulo { color: var(--texto-suave); max-width: 640px; }
