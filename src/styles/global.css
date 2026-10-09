@@ -139,13 +139,15 @@ ul { padding-left: 1.2em; }
   background: url('/img/hero.jpg') center 38% / cover no-repeat;
   transform: scale(1.32);
   transform-origin: 52% 45%;
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 58%, rgba(0, 0, 0, 0.55) 80%, transparent 100%);
+  mask-image: linear-gradient(180deg, #000 0%, #000 58%, rgba(0, 0, 0, 0.55) 80%, transparent 100%);
 }
 .hero-foto::after {
   content: '';
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 26%, rgba(2, 12, 7, 0.4) 68%, rgba(2, 12, 7, 0.95) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 26%, rgba(2, 12, 7, 0.45) 72%, rgba(2, 12, 7, 0) 100%);
 }
 .hero-conteudo { width: 100%; max-width: 1200px; margin: 0 auto; padding: 120px 24px 44px; }
 .hero-conteudo h1 { font-size: clamp(1.05rem, 1.5vw, 1.3rem); max-width: 380px; font-weight: 600; margin: 0 0 0.35em; font-weight: 600; text-shadow: 0 2px 14px rgba(0, 0, 0, 0.7); }
@@ -419,8 +421,10 @@ legend { padding: 0 8px; font-weight: 500; font-size: 0.93rem; }
     height: min(72vh, 600px);
     transform: none;
     background:
-      linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 20%, rgba(2, 12, 7, 0) 72%, rgba(2, 12, 7, 0.9) 100%),
+      linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 20%),
       url('/img/hero.jpg') 50% 32% / auto 128% no-repeat;
+    -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 62%, transparent 100%);
+    mask-image: linear-gradient(180deg, #000 0%, #000 62%, transparent 100%);
   }
   .hero-conteudo { padding: 6px 18px 32px; margin-top: -24px; position: relative; }
   .hero-conteudo h1 { font-size: 1.1rem; max-width: none; }
