@@ -93,10 +93,10 @@ export default function Home() {
             respeito.
           </p>
           <div className="hero-botoes">
-            <Botao to={perfil ? '/trilha' : '/perfil/criar'} variante="vivo" tamanho="lg">
+            <Botao to={perfil ? '/trilha' : '/perfil/criar'} variante="vivo" tamanho="md">
               Começar trilha <Icone nome="seta" tamanho={18} />
             </Botao>
-            <Botao to="/especies" tamanho="lg">
+            <Botao to="/especies" tamanho="md">
               Ver espécies
             </Botao>
           </div>
