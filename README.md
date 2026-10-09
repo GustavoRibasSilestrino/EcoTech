@@ -323,9 +323,9 @@ _Adicionar aqui um print do quadro:_ `![Quadro](docs/quadro.png)`
 ## Equipe
 
 | Integrante |
-Gustavo Ribas Silestrino
-Kevin Payão Reisauskas
-João Victor Pereira de Souza 
+Gustavo Ribas Silestrino,
+Kevin Payão Reisauskas,
+João Victor Pereira de Souza, 
 Danilo Pereira da Silva 
 
 ---
