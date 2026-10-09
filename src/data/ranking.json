@@ -1,0 +1,59 @@
+{
+  "aviso": "Ranking de demonstração: os jogadores abaixo são fictícios.",
+  "geral": [
+    {
+      "nome": "Luna Verde",
+      "pontos": 480
+    },
+    {
+      "nome": "Bento Mata",
+      "pontos": 420
+    },
+    {
+      "nome": "Cora Folha",
+      "pontos": 360
+    },
+    {
+      "nome": "Iara Rio",
+      "pontos": 310
+    },
+    {
+      "nome": "Tito Cerrado",
+      "pontos": 250
+    },
+    {
+      "nome": "Maya Ipê",
+      "pontos": 190
+    },
+    {
+      "nome": "Davi Raiz",
+      "pontos": 120
+    }
+  ],
+  "semana": [
+    {
+      "nome": "Bento Mata",
+      "pontos": 120
+    },
+    {
+      "nome": "Luna Verde",
+      "pontos": 100
+    },
+    {
+      "nome": "Iara Rio",
+      "pontos": 80
+    },
+    {
+      "nome": "Cora Folha",
+      "pontos": 60
+    },
+    {
+      "nome": "Maya Ipê",
+      "pontos": 40
+    },
+    {
+      "nome": "Davi Raiz",
+      "pontos": 20
+    }
+  ]
+}
