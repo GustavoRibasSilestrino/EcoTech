@@ -54,7 +54,7 @@ ul { padding-left: 1.2em; }
 
 /* ===== Fundo: foto da floresta ===== */
 .fundo { position: fixed; inset: 0; z-index: -1; }
-.fundo-foto { position: absolute; inset: 0; background: #06140d url('/img/floresta.webp') center / cover no-repeat; }
+.fundo-foto { position: absolute; inset: 0; background: #06140d url('/img/montanha.jpg') center 40% / cover no-repeat; }
 .fundo-veu { position: absolute; inset: 0; background: var(--veu); }
 
 /* ===== Títulos (limpos, sem gradiente) ===== */
