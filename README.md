@@ -232,34 +232,6 @@ O projeto usa **React 19** com **Vite** e **React Router 7**.
 
 ---
 
-## Como executar
-
-**Pré-requisitos:** [Node.js](https://nodejs.org/) 18 ou superior e Git.
-
-```bash
-# 1. Clonar o repositório
-git clone https://github.com/GustavoRibasSilestrino/EcoTech.git
-
-# 2. Entrar na pasta do projeto
-cd EcoTech
-
-# 3. Instalar as dependências
-npm install
-
-# 4. Rodar em modo de desenvolvimento
-npm run dev
-```
-
-Depois, abra o endereço mostrado no terminal (normalmente `http://localhost:5173`).
-
-Para gerar a versão de produção:
-
-```bash
-npm run build
-```
-
----
-
 ## Estrutura de pastas
 
 ```
