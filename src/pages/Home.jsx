@@ -1,5 +1,6 @@
 import Botao from '../components/Botao'
 import Icone from '../components/Icone'
+import Nuvens from '../components/Nuvens'
 import modulos from '../data/modulos.json'
 import { useApp } from '../context/AppContext'
 
@@ -104,6 +105,7 @@ export default function Home() {
       </section>
 
       <div className="conteudo-home">
+        <Nuvens />
         <section className="secao">
           <h2 className="titulo-secao">O que é o desmatamento</h2>
           <div className="card-vidro texto-leitura">
