@@ -441,7 +441,7 @@ legend { padding: 0 8px; font-weight: 500; font-size: 0.93rem; }
 
 /* ===== Nuvens (profundidade, da segunda tela em diante) ===== */
 .conteudo-home { position: relative; }
-.nuvens { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: 2; }
+.nuvens { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: 20; }
 .nuvem { position: absolute; max-width: none; height: auto; animation: derivar 100s ease-in-out infinite alternate; will-change: transform; }
 @keyframes derivar { from { transform: translateX(-9vw); } to { transform: translateX(9vw); } }
 @media (max-width: 860px) {

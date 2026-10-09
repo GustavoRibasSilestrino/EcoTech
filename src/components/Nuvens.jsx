@@ -1,15 +1,16 @@
-// Nuvens decorativas (geradas por nós) que passam devagar sobre o conteúdo, a partir da segunda tela,
-// para dar profundidade. Ficam por cima do texto, mas bem transparentes e sem bloquear cliques.
+// Nuvens decorativas (geradas por nós) que passam devagar POR CIMA dos textos, a partir da segunda tela,
+// cobrindo parte das letras para dar profundidade. Não bloqueiam cliques.
 const NUVENS = [
-  { topo: '3%', esq: '-6%', larg: '46vw', opac: 0.2, dur: '110s', atraso: '-20s', blur: '2px' },
-  { topo: '12%', esq: '58%', larg: '40vw', opac: 0.16, dur: '130s', atraso: '-60s', blur: '3px' },
-  { topo: '23%', esq: '12%', larg: '50vw', opac: 0.18, dur: '100s', atraso: '-35s', blur: '2px' },
-  { topo: '34%', esq: '64%', larg: '44vw', opac: 0.2, dur: '120s', atraso: '-80s', blur: '2px' },
-  { topo: '46%', esq: '-4%', larg: '42vw', opac: 0.16, dur: '115s', atraso: '-10s', blur: '3px' },
-  { topo: '57%', esq: '40%', larg: '52vw', opac: 0.18, dur: '105s', atraso: '-50s', blur: '2px' },
-  { topo: '69%', esq: '66%', larg: '38vw', opac: 0.2, dur: '125s', atraso: '-70s', blur: '2px' },
-  { topo: '80%', esq: '8%', larg: '48vw', opac: 0.17, dur: '135s', atraso: '-25s', blur: '3px' },
-  { topo: '91%', esq: '52%', larg: '44vw', opac: 0.2, dur: '110s', atraso: '-45s', blur: '2px' },
+  { topo: '1%', esq: '-8%', larg: '56vw', opac: 0.62, dur: '110s', atraso: '-20s', blur: '1px' },
+  { topo: '9%', esq: '56%', larg: '48vw', opac: 0.5, dur: '130s', atraso: '-60s', blur: '2px' },
+  { topo: '19%', esq: '8%', larg: '58vw', opac: 0.58, dur: '100s', atraso: '-35s', blur: '1px' },
+  { topo: '29%', esq: '62%', larg: '52vw', opac: 0.55, dur: '120s', atraso: '-80s', blur: '1px' },
+  { topo: '40%', esq: '-6%', larg: '50vw', opac: 0.5, dur: '115s', atraso: '-10s', blur: '2px' },
+  { topo: '50%', esq: '38%', larg: '60vw', opac: 0.6, dur: '105s', atraso: '-50s', blur: '1px' },
+  { topo: '61%', esq: '64%', larg: '46vw', opac: 0.52, dur: '125s', atraso: '-70s', blur: '2px' },
+  { topo: '72%', esq: '4%', larg: '56vw', opac: 0.58, dur: '135s', atraso: '-25s', blur: '1px' },
+  { topo: '82%', esq: '50%', larg: '52vw', opac: 0.55, dur: '110s', atraso: '-45s', blur: '1px' },
+  { topo: '92%', esq: '-4%', larg: '48vw', opac: 0.5, dur: '120s', atraso: '-15s', blur: '2px' },
 ]
 
 export default function Nuvens() {
