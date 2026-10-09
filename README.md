@@ -5,7 +5,7 @@
 ![ODS 15](https://img.shields.io/badge/ODS-15%20Vida%20Terrestre-green)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
-## 🔗 Links do projeto
+## Links do projeto
 
 | Item | Link |
 |---|---|
@@ -365,4 +365,4 @@ Todo conteúdo sugerido ou gerado por IA foi lido e validado pelos integrantes.
 
 ---
 
-<p align="center">Feito com 💚 pela equipe EcoTech · Hackathon Front-end Frameworks</p>
+<p align="center">Feito pela equipe EcoTech · Hackathon Front-end Frameworks</p>
